@@ -10,14 +10,17 @@
 ### Experience
 - Ruby Install
 > 1、Ruby version **MUST** >= 2.1
+
 > 2、A Common **ssl-issue** Problem , see:
+
 > 	http://guides.rubygems.org/ssl-certificate-update/#manual-solution-to-ssl-issue
+
 > 3、Using Mac OS or Linux System can make the process **EASIER**... : )
 
 ### Command
 - Startup Jekyll Server
 ```bash
-	> jekyll serve
+> jekyll serve
 ```
 
 ### Congurations
