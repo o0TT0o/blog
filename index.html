@@ -1,11 +1,50 @@
 ---
-layout: default
-title: 我的Blog
+layout: default_index
+title: o0TT0o's GitHub IO
 ---
-<h2>{{ page.title }}</h2>
-<p>最新文章</p>
-<ul>
-　　{% for post in site.posts %}
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-8 column">
+			<h1 class="text-center">
+				{{ page.title }}
+			</h1>
+		</div>
+		<div class="col-md-4 column">
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<h3 class="text-left" >最新文章</h3>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-8 column">
+			<div class="row clearfix">
+{% for post in site.posts %}
+				<div class="col-md-12 column">
 　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　{% endfor %}
-</ul>
+				</div>
+{% endfor %}
+			</div>		
+		</div>
+		<div class="col-md-4 column">
+			<form role="form">
+				<div class="form-group">
+					 <label for="exampleInputEmail1">Email address</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+				<div class="form-group">
+					 <label for="exampleInputPassword1">Password</label><input type="password" class="form-control" id="exampleInputPassword1" />
+				</div>
+				<div class="form-group">
+					 <label for="exampleInputFile">File input</label><input type="file" id="exampleInputFile" />
+					<p class="help-block">
+						Example block-level help text here.
+					</p>
+				</div>
+				<div class="checkbox">
+					 <label><input type="checkbox" />Check me out</label>
+				</div> <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
