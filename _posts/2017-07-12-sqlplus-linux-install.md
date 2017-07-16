@@ -1,3 +1,12 @@
+---
+layout:     post
+title:      "sqlplus linux install"
+subtitle:   "Linux环境下，SQLPLUS的配置"
+date:       2017-07-12 12:00:00
+author:     "o0TT0o"
+header-img: "img/post-bg-06.jpg"
+---
+
 ## Linux环境下，SQLPLUS的配置
 
 ### 参考:

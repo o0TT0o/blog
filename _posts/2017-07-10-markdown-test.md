@@ -1,3 +1,12 @@
+---
+layout:     post
+title:      "markdown test"
+subtitle:   "Markdown学习 "
+date:       2017-07-10 12:00:00
+author:     "o0TT0o"
+header-img: "img/post-bg-06.jpg"
+---
+
 # Markdown学习 
 [TOC]
 
